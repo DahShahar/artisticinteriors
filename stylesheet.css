@@ -1,0 +1,67 @@
+html {
+  overflow-y: scroll;
+}
+
+html, body {
+  color: #000;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #ffbe;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body {
+  background-color #fff;
+}
+
+header {
+  text-align: center;
+}
+
+header a {
+  color: black;
+  text-decoration: underline;
+}
+
+header p {
+  margin: 0.25em;
+}
+
+header h1 {
+  margin: 0.25em;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  background-color: #333;
+  text-align: center;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  color: #000;
+}
+
+nav li:hover {
+  background-color: #000;
+}
+
+nav li.active {
+  background-color: #000;
+}
+
+nav a {
+  color: #FFF;
+  background-color: transparent;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em;
+  width: 9em;
+}
