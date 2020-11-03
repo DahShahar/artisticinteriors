@@ -72,3 +72,23 @@ nav a {
   padding: 1em;
   width: 9em;
 }
+
+main section {
+  min-width: 39.7em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main section h2 {
+  display: flex;
+  flex-basis: calc(50% - 1em);
+  flex-direction: column;
+  min-width: calc(48%);
+  margin-left: .5%;
+  margin-right: .5%;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
