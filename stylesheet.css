@@ -16,7 +16,14 @@ body {
 }
 
 header {
+  background-color: #71936c;
   text-align: center;
+  border: .15em;
+  border-color: black;
+  border-style: solid;
+  border-radius: 30px 30px 0 0;
+  margin-bottom: 0;
+  min-width: 39.7em;
 }
 
 header a {
@@ -24,22 +31,22 @@ header a {
   text-decoration: underline;
 }
 
-header p {
+header p, h1 {
   margin: 0.25em;
-}
-
-header h1 {
-  margin: 0.25em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 nav {
   width: 100%;
+  min-width: 40em;
 }
 
 nav ul {
   padding: 0;
   background-color: #333;
   text-align: center;
+  margin-top: 0;
 }
 
 nav li {
