@@ -1,76 +1,102 @@
-html {
-  overflow-y: scroll;
-}
-
 html, body {
   color: #000;
   font-family: arial, helvetica, sans-serif;
   font-size: 16px;
-  background-color: #ffbe;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0px;
 }
 
 body {
   background-color #fff;
 }
 
-header {
-  background-color: #71936c;
-  text-align: center;
-  border: .15em;
-  border-color: black;
-  border-style: solid;
-  border-radius: 30px 30px 0 0;
-  margin-bottom: 0;
-  min-width: 39.7em;
+main {
+  background-color: #ffbe;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-header a {
+header {
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  min-width: 39.7em;
+  max-width: 100%;
+  justify-content: space-around;
+  height: 10%;
+  box-shadow: 0 3px gray;
+  margin-bottom: 3px;
+}
+
+header span.contact {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+header span, nav {
+  flex: -moz-available;
+  flex: -webkit-fill-available;
+}
+
+header span.contact p {
+  margin: 0;
+}
+
+header span a {
   color: black;
   text-decoration: underline;
 }
 
-header p, h1 {
-  margin: 0.25em;
-  margin-left: 0;
-  margin-right: 0;
+header span, nav {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-nav {
-  width: 100%;
-  min-width: 40em;
+header span.logo {
+  text-align: center;
 }
 
-nav ul {
-  padding: 0;
-  background-color: #333;
+header nav {
+  display: flex;
+  align-items: stretch;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-nav li {
+header nav ul li {
+  display: flex;
   list-style-type: none;
-  display: inline-block;
   color: #000;
+  height: 100%;
+  align-items: center;
+  transition: .3s;
 }
 
-nav li:hover {
-  background-color: #000;
+header nav ul li:hover {
+  background-color: #0d0d7d66;
 }
 
-nav li.active {
-  background-color: #000;
+header nav ul li.active {
+  background-color: #0d0d7d66;
 }
 
-nav a {
-  color: #FFF;
+header nav ul li a {
+  display: inline-flex;
   background-color: transparent;
-  display: block;
-  text-align: center;
   text-decoration: none;
-  padding: 1em;
-  width: 9em;
+  padding-left: 1em;
+  padding-right: 1em;
+  align-items: center;
+  height: 100%;
 }
 
 main section {
