@@ -11,8 +11,6 @@ body {
 
 main {
   background-color: #ffbe;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 header {
@@ -100,11 +98,15 @@ header nav ul li a {
 }
 
 main section {
-  min-width: 39.7em;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.banner_photos img {
+  width: 100%;
 }
 
 main section h2 {
@@ -112,8 +114,6 @@ main section h2 {
   flex-basis: calc(50% - 1em);
   flex-direction: column;
   min-width: calc(48%);
-  margin-left: .5%;
-  margin-right: .5%;
   border: 1px;
   border-color: black;
   border-style: solid;
