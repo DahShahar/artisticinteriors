@@ -24,6 +24,7 @@ header {
   height: 10%;
   box-shadow: 0 3px gray;
   margin-bottom: 3px;
+  font-weight: bold;
 }
 
 header span.contact {
@@ -52,8 +53,19 @@ header span, nav {
   padding-right: 0;
 }
 
-header span.logo {
+.logo {
+  margin: 0;
   text-align: center;
+}
+
+.logo h3 {
+  margin-top: auto;
+  margin-bottom: .5%;
+}
+
+.logo > img {
+  width: 400px;
+  height: 71px;
 }
 
 header nav {
@@ -80,11 +92,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-  background-color: #0d0d7d66;
-}
-
-header nav ul li.active {
-  background-color: #0d0d7d66;
+  background-color: #70feff5e;
 }
 
 header nav ul li a {
@@ -95,6 +103,10 @@ header nav ul li a {
   padding-right: 1em;
   align-items: center;
   height: 100%;
+}
+
+a {
+  color: inherit;
 }
 
 main section {
