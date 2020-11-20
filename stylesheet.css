@@ -111,14 +111,9 @@ a {
 
 main section {
   width: 100%;
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.banner_photos img {
-  width: 100%;
 }
 
 main section h2 {
@@ -129,4 +124,29 @@ main section h2 {
   border: 1px;
   border-color: black;
   border-style: solid;
+}
+
+.banner_slides {
+  display: none;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: banner_slides_fade;
+  animation-duration: 8.2s;
+  height: 400px;
+  min-height: 100%;
+  width: 100%;
+}
+
+.banner_photos img {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+}
+
+@keyframes banner_slides_fade {
+  0% { opacity: 0.5; }
+  10% { opacity: 1; }
+  50% { opacity: 1; }
+  95% { opacity: 1; }
+  100% {opacity: 0; }
 }
