@@ -8,6 +8,7 @@
     <meta name="description" content="The web page for Artistic Interiors">
     <meta name="keywords" content="ludlow,ma,massachusetts,kitchens,bath,baths,kitchen,cabinet,granite,countertop,cabinets">
     <link rel="stylesheet" href="/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
     <header>
@@ -33,9 +34,9 @@
 
     <!-- Here is our page's main content -->
     <main>
-      <h2> Specials </h2>
-      <div>
-        <img src="images/special"/>
+      <div class="specials">
+        <img onerror="styleOnError(this)" src="images/specials.jpg" alt="Sorry, no specials at this time.
+        Check back later!"/>
       </div>
     </main>
 
@@ -43,6 +44,7 @@
     <footer>
       <!-- footer content in here -->
     </footer>
+    <script src="scripts/change_styling.js"></script>
   </body>
 </html>
 

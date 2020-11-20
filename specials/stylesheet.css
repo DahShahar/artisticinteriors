@@ -1,0 +1,15 @@
+main h1 {
+  text-align: center;
+  font-size: 3em;
+  box-shadow: 0 3px chocolate;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin: 0;
+  margin-bottom: 1em;
+  background-color: #d2691e78;
+}
+
+.specials {
+  text-align: center;
+  white-space: pre;
+}
