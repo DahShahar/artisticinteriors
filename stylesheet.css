@@ -9,10 +9,6 @@ body {
   background-color #fff;
 }
 
-main {
-  background-color: #ffbe;
-}
-
 header {
   height: 4em;
   display: flex;
