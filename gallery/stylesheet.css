@@ -1,0 +1,29 @@
+.see_more_links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 975px;
+}
+
+.see_more_links a {
+  margin-bottom: 25px;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see_more_links a img {
+  height: 100%;
+  width: 100%;
+}
+
+.see_more_links a div {
+  position: absolute;
+  text-decoration: none;
+  font-size: 1000%;
+  color: rgb(0,0,0,.6)
+}
