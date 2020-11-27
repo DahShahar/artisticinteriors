@@ -16,6 +16,10 @@ main section {
   justify-content: center;
 }
 
+main section h1 {
+  font-size: 36px;
+}
+
 main section h2 {
   display: flex;
   flex-basis: calc(50% - 1em);
@@ -71,5 +75,20 @@ main section h2 {
 }
 
 .expanded {
-  max-height: 37em;
+  max-height: 55em;
+}
+
+.flex-counters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.counter-item ul {
+  padding: 0;
+}
+
+.counter-item li {
+  list-style-type: none;
 }
