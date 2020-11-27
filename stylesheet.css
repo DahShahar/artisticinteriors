@@ -50,3 +50,26 @@ main section h2 {
   95% { opacity: 1; }
   100% {opacity: 0; }
 }
+
+.partners {
+  text-align: center;
+}
+
+.partners h2:hover {
+  cursor: pointer;
+}
+
+.partner_title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.expanded, .unexpanded {
+  transition: all 1s ease-in-out;
+  overflow-y: hidden;
+  max-height: 0;
+}
+
+.expanded {
+  max-height: 37em;
+}
