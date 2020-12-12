@@ -36,9 +36,12 @@ main section h2 {
   -webkit-animation-duration: 1.5s;
   animation-name: banner_slides_fade;
   animation-duration: 8.2s;
-  height: 400px;
+  height: 600px;
   min-height: 100%;
-  width: 100%;
+}
+
+.banner_slides > img {
+  object-fit: fill;
 }
 
 .banner_photos img {
