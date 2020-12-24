@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rober33/public_html/artisticinteriorsma
+    - /bin/rm -rf ${DEPLOYPATH}/*
+    - /bin/cp src/* $DEPLOYPATH
