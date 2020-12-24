@@ -1,0 +1,15 @@
+main {
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  margin: 2%;
+}
+
+.big_break {
+  margin: 1em;
+}
+
+.section_container {
+  border-style: solid;
+  border-color: black;
+}
