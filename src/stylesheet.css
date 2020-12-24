@@ -10,13 +10,9 @@ main section h1 {
 }
 
 main section h2 {
+  font-size: 3em;
   display: flex;
-  flex-basis: calc(50% - 1em);
   flex-direction: column;
-  min-width: calc(48%);
-  border: 1px;
-  border-color: black;
-  border-style: solid;
 }
 
 .prev, .next {
@@ -106,10 +102,6 @@ main section h2 {
 
 .partners h2 {
   margin-bottom: 0;
-}
-
-.partners h2:hover {
-  cursor: pointer;
 }
 
 .partner_title {
