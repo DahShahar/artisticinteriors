@@ -8,6 +8,7 @@
     <meta name="description" content="The gallery for Artistic Interiors">
     <meta name="keywords" content="ludlow,ma,massachusetts,kitchens,bath,baths,kitchen,cabinet,granite,countertop,cabinets">
     <link rel="stylesheet" href="/header_styles.css" type="text/css">
+    <link rel="stylesheet" href="../gallery_stylesheet.css" type="text/css">
   </head>
   <body>
     <header>
@@ -22,27 +23,24 @@
       </span>
       <nav>
         <ul>
-        <li><a href="/">Home</a></li> <!-- will find info for this page later -->
-        <li><a href="/gallery">Gallery</a></li> <!-- images from jorge -->
-        <li><a href="/specials">Sales & Specials</a></li> <!-- should be easy to upload / somewhat dynamic -->
-        <li><a href="/contact">Contact Us</a></li> <!-- include facebook link and email -->
-        <li><a href="/about">About Us</a></li> <!-- potentially -->
+        <li><a href="/">Home</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/specials">Sales & Specials</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+        <li><a href="/about">About Us</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- Here is our page's main content -->
     <main>
-      <h3> Images </h3>
-      <div>
-        <!-- Require Javascript to load all the images dynamicallyu -- !>
+      <h3> Bathrooms </h3>
+      <div id="image_container">
       </div>
     </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-    <footer>
-      <!-- footer content in here -->
-    </footer>
+    <script>
+      var IMAGE_BASE = 'bathroom';
+    </script>
+    <script src="../scripts/lazy_load_images.js"></script>
   </body>
 </html>
 

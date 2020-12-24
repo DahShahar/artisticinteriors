@@ -1,0 +1,23 @@
+h3 {
+  text-align: center;
+}
+
+#image_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#image_container > img {
+  margin-left: 2em;
+}
+
+.gallery_photo {
+}
+
+.gallery_photo_thumbnail {
+  width: 250px;
+  height: 250px;
+}
