@@ -9,7 +9,6 @@ deployment:
     # Put in new code
     - /bin/cp -R src/* ${DEPLOYPATH}
     # soft link images in
-    - >
-      for type in ${IMAGE_TYPES[@]}; do
-        ln -s /home/rober33/artistic_interiors_photos/${type} ${DEPLOYPATH}/gallery/${type}/images
-      done
+    - ln -s /home/rober33/artistic_interiors_photos/bathrooms ${DEPLOYPATH}/gallery/bathrooms/images
+    - ln -s /home/rober33/artistic_interiors_photos/kitchens ${DEPLOYPATH}/gallery/kitchens/images
+    - ln -s /home/rober33/artistic_interiors_photos/more ${DEPLOYPATH}/gallery/more/images
