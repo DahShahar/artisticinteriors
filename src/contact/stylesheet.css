@@ -1,0 +1,12 @@
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto;
+  justify-items: center;
+  align-items: center;
+}
+
+main > section {
+  text-align: center;
+  width: 100%;
+}
