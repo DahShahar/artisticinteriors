@@ -2,5 +2,14 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rober33/public_html/artisticinteriorsma
+    - export IMAGES_ROOT=/home/rober33/artistic_interiors_photos
+    - export IMAGES_TYPES=(bathrooms kitchens more)
+    # Clean up old code
     - /bin/rm -rf ${DEPLOYPATH}/*
-    - /bin/cp -R src/* $DEPLOYPATH
+    # Put in new code
+    - /bin/cp -R src/* ${DEPLOYPATH}
+    # soft link images in
+    - >
+      for type in ${IMAGE_TYPES[@]}; do
+        ln -s /home/rober33/artistic_interiors_photos/${type} ${DEPLOYPATH}/gallery/${type}/images
+      done
