@@ -12,3 +12,5 @@ deployment:
     - ln -s /home/rober33/artistic_interiors_photos/bathrooms ${DEPLOYPATH}/gallery/bathrooms/images
     - ln -s /home/rober33/artistic_interiors_photos/kitchens ${DEPLOYPATH}/gallery/kitchens/images
     - ln -s /home/rober33/artistic_interiors_photos/more ${DEPLOYPATH}/gallery/more/images
+    # soft link specials in
+    - ln -s /home/rober33/artistic_interiors_photos/specials/special.jpg ${DEPLOYPATH}/specials/images/special.jpg
