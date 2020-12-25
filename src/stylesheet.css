@@ -75,7 +75,7 @@ main section h2 {
   -webkit-animation-duration: 1.5s;
   animation-name: banner_slides_fade;
   animation-duration: 8.2s;
-  height: 600px;
+  height: 750px;
   min-height: 100%;
 }
 
