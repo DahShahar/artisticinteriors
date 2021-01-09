@@ -102,6 +102,7 @@ header nav ul li a {
 }
 
 a {
+  cursor: pointer;
   color: inherit;
 }
 

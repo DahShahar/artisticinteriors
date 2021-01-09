@@ -16,6 +16,11 @@ main section h2 {
   flex-direction: column;
 }
 
+.see_more_link {
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -110,15 +115,8 @@ main section h2 {
   font-size: 18px;
 }
 
-.expanded, .unexpanded {
-  transition: max-height .7s ease-in-out, padding .5s ease-in-out;
-  overflow-y: hidden;
-  max-height: 0;
-}
-
 .expanded {
   padding-top: 1em;
-  max-height: 55em;
 }
 
 .flex-counters {
@@ -134,4 +132,32 @@ main section h2 {
 
 .counter-item li {
   list-style-type: none;
+}
+
+.partner {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hidden, .unhidden {
+  opacity: 0;
+  height: 0;
+  line-height: 1.3em;
+  transition: transform .5s ease-in-out, opacity .5s ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  overflow-y: hidden;
+  white-space: pre-line;
+}
+
+.unhidden {
+  height: auto;
+  opacity: 1;
+  transform: scaleY(1);
+  background-color: #DDD;
+  margin-top: 1em;
+}
+
+.hidden {
+  margin: 0;
 }
