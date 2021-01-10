@@ -28,6 +28,7 @@ header span.contact {
   align-items: center;
   flex-flow: column;
   justify-content: center;
+  text-align: center;
 }
 
 header span, nav {
@@ -54,9 +55,10 @@ header span, nav {
   text-align: center;
 }
 
-.logo h3 {
+.logo b {
   margin-top: auto;
   margin-bottom: .5%;
+  font-size: 1.1em;
 }
 
 .logo > img {
