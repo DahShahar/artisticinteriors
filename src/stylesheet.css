@@ -11,19 +11,24 @@ main section h1 {
 }
 
 main section h2 {
-  font-size: 3em;
+  padding-top: .5em;
+  font-size: 2em;
   display: flex;
   flex-direction: column;
 }
 
 main section h3 {
-  font-size: 2em;
-  text-align: center;
+  font-size: 1.5em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 main section h4 {
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 1.3em;
+  text-align: left;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -123,15 +128,23 @@ main section h4 {
 
 .partners h2 {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .partner_title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 .expanded {
-  padding-top: 1em;
+  padding-bottom: 1.5em;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
+
+.expanded p {
+  margin-top: 0;
 }
 
 .partner {
@@ -139,11 +152,19 @@ main section h4 {
   margin-bottom: 1em;
 }
 
+.first_partner {
+  margin-top: 0;
+}
+
+.last_partner {
+  margin-bottom: 0;
+}
+
 .hidden, .unhidden {
   opacity: 0;
   height: 0;
   line-height: 1.3em;
-  transition: transform .5s ease-in-out, opacity .5s ease;
+  transition: transform .2s ease-in-out, opacity .5s ease;
   transform: scaleY(0);
   transform-origin: top;
   overflow-y: hidden;
@@ -154,7 +175,6 @@ main section h4 {
   height: auto;
   opacity: 1;
   transform: scaleY(1);
-  background-color: #DDD;
   margin-top: 1em;
 }
 
@@ -164,4 +184,20 @@ main section h4 {
 
 .blurb {
   white-space: pre-line;
+}
+
+.blue_back {
+  background-color: #29d7ff2b;
+}
+
+.thick {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.border_top {
+  border-top-style: solid;
+  border-width: 10px;
 }
