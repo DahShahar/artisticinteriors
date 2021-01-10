@@ -6,7 +6,7 @@ main section {
 }
 
 main section h1 {
-  font-size: 36px;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -16,9 +16,16 @@ main section h2 {
   flex-direction: column;
 }
 
-.see_more_link {
-  white-space: nowrap;
-  text-decoration: underline;
+main section h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+main section h4 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .prev, .next {
@@ -102,6 +109,11 @@ main section h2 {
   100% {opacity: 0; }
 }
 
+.see_more_link {
+  white-space: nowrap;
+  text-decoration: underline;
+}
+
 .partners {
   text-align: center;
 }
@@ -117,21 +129,6 @@ main section h2 {
 
 .expanded {
   padding-top: 1em;
-}
-
-.flex-counters {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-
-.counter-item ul {
-  padding: 0;
-}
-
-.counter-item li {
-  list-style-type: none;
 }
 
 .partner {
@@ -160,4 +157,8 @@ main section h2 {
 
 .hidden {
   margin: 0;
+}
+
+.blurb {
+  white-space: pre-line;
 }
