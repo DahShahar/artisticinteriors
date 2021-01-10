@@ -31,7 +31,7 @@ main section h4 {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 45%;
+  top: 50%;
   width: auto;
   margin-top: -1.5em;
   padding: .5em;
@@ -92,6 +92,10 @@ main section h4 {
 
 .banner_slides > img {
   object-fit: fill;
+}
+
+.banner_photos {
+  position: relative;
 }
 
 .banner_photos img {
