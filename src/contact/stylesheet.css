@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 300px;
+  min-height: 333px;
 }
 
 .email, .fax, .hours_container {
@@ -40,14 +40,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 300px;
+  min-height: 333px;
 }
 
 .hours_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 600px;
+  min-height: 666px;
 }
 
 .hours_container div {
