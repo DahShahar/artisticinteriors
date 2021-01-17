@@ -1,17 +1,59 @@
-main {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-row: auto auto;
-  justify-items: center;
+.container {
+  height: 100%;
+  display: flex;
   align-items: center;
 }
 
-main > section {
+.container > section {
   text-align: center;
   width: 100%;
+}
+
+.contact_info, .directions_hours {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.contact_info > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.email, .fax, .hours_container {
+  background-color: #29d7ff2b;
 }
 
 .map {
   display: block;
   margin: auto;
+}
+
+.hours {
+  text-align: center;
+}
+
+.directions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.hours_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.hours_container div {
+  width: 100%;
+}
+
+br {
+  margin-bottom: 2%;
 }
