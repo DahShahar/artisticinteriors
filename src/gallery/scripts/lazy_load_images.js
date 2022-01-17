@@ -17,7 +17,7 @@ function getImages() {
   img.className = "gallery_photo_thumbnail";
   img.onerror = outOfImages;
   img.onclick = clickedImage;
-  img.src = `images/${IMAGE_BASE}_${currentImage}.webp`;
+  img.src = `/gallery/${IMAGE_BASE}/images/${IMAGE_BASE}_${currentImage}.webp`;
   container.appendChild(img);
   currentImage++;
 
