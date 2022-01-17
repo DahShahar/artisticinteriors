@@ -17,7 +17,7 @@ function getImages() {
   img.className = "gallery_photo_thumbnail";
   img.onerror = outOfImages;
   img.onclick = clickedImage;
-  img.src = `images/${IMAGE_BASE}_${currentImage}.jpg`;
+  img.src = `images/${IMAGE_BASE}_${currentImage}.webp`;
   container.appendChild(img);
   currentImage++;
 
@@ -51,7 +51,7 @@ function changeImage(value) {
     displayImage = currentImage - 1;
   }
 
-  modalImage.src = `images/${IMAGE_BASE}_${displayImage}.jpg`;
+  modalImage.src = `images/${IMAGE_BASE}_${displayImage}.webp`;
 }
 
 function nextImage() {
